@@ -1,0 +1,2 @@
+# Mastra MCPホスト
+
