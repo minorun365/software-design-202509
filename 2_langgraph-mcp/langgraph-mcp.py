@@ -6,7 +6,7 @@ from mcp.client.stdio import stdio_client
 
 # MCPサーバーを設定
 server_params = StdioServerParameters(
-    command="/Absolute/path/to/python3",
+    command="/Absolute/path/to/python",
     args=["/Absolute/path/to/aws_updates.py"]
 )
 
