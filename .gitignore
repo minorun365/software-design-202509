@@ -1,31 +1,3 @@
-# アプリケーション出力
-output.txt
-
-# Node.js
-node_modules
-dist
-
-# Mastra関連
-.mastra
-
-# 環境変数
-.env.development
-.env
-
-# データベース
-*.db
-*.db-*
-
-# OS関連
 .DS_Store
-Thumbs.db
-
-# Python関連  
-__pycache__/
-*.pyc
-
-# ログファイル
-*.log
-
-# エディタ設定
-.vscode/
+.mastra
+node_modules

@@ -21,7 +21,7 @@ MCPホストアプリへサーバー設定を実施
 {
   "mcpServers": {
     "aws-updates": {
-      "command": "/Absolute/path/to/python3",
+      "command": "/Absolute/path/to/python",
       "args": ["/Absolute/path/to/sample-mcp-server/aws_updates.py"]
     }
   }

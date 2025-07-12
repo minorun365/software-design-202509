@@ -7,8 +7,10 @@ import { anthropic } from "@ai-sdk/anthropic";
 const mcp = new MCPClient({
     servers: {
         sequential: {
-            command: "/Absolute/path/to/python",
-            args: ["/Absolute/path/to/aws_updates.py"]
+            // command: "/Absolute/path/to/python",
+            command: "/Users/mi-onda/.pyenv/shims/python",
+            // args: ["/Absolute/path/to/aws_updates.py"]
+            args: ["/Users/mi-onda/git/software-design-202509/1_aws-updates-mcp/aws_updates.py"]
         },
     },
 });
