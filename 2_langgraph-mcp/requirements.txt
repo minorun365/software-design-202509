@@ -1,0 +1,5 @@
+langgraph
+langchain
+lanhchain-anthropic
+langchain-mcp-adapters
+mcp[cli]

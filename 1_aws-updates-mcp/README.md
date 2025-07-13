@@ -9,21 +9,17 @@ AWS What's NewのRSSフィードから、与えられたキーワードで最新
 
 ## 利用方法
 
-MCPサーバーの起動
-
-```zsh
-python aws_updates.py
-```
-
-MCPホストアプリへサーバー設定を実施
+MCPホストアプリへサーバー設定を実施する
 
 ```json
 {
   "mcpServers": {
     "aws-updates": {
-      "command": "/Absolute/path/to/python",
+      "command": "/Absolute/path/to/sample-mcp-server/python",
       "args": ["/Absolute/path/to/sample-mcp-server/aws_updates.py"]
     }
   }
 }
 ```
+
+その後、MCPホストを起動して「Amazon Bedrockのアップデートを教えて」などのプロンプトを入力してみましょう。

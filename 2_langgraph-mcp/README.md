@@ -4,16 +4,7 @@ LangGraphで開発したMCPホストのサンプルコードです。
 
 ## 起動手順
 
-### MCPサーバーの起動
-
-MCPサーバーを事前に起動しておく
-
-```sh
-cd 1_aws-updates-mcp
-python aws_updates.py
-```
-
-### MCPホストの事前準備
+### 事前準備
 
 `2_langgraph-mcp/langgraph-mcp.py` 内の以下部分に、PythonとMCPサーバーのフルパスを記載する
 
@@ -39,5 +30,6 @@ MCPホストアプリを起動する
 
 ```sh
 cd 2_langgraph-mcp
+pip install -r requirements.txt
 python langgraph-mcp.py
 ```

@@ -4,15 +4,6 @@ Mastraで開発したMCPホストのサンプルコードです。
 
 ## 起動手順
 
-### MCPサーバーの起動
-
-MCPサーバーを事前に起動しておく
-
-```sh
-cd 1_aws-updates-mcp
-python aws_updates.py
-```
-
 ### MCPホストの事前準備
 
 `3_mastra-mcp/src/mastra/index.ts` 内の以下部分に、PythonとMCPサーバーのフルパスを記載する
