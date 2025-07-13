@@ -1,4 +1,4 @@
 langgraph
-lanhchain-anthropic
+langchain-anthropic
 langchain-mcp-adapters
 mcp[cli]

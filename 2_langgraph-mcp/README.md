@@ -16,8 +16,6 @@ server_params = StdioServerParameters(
 
 https://console.anthropic.com/ でAnthropicのAPIキーを取得する（最低5ドルのクレジットをチャージする必要あり）
 
-MCPサーバーと別のターミナルを起動し、環境変数にAPIキーをセットする
-
 ```sh
 export ANTHROPIC_API_KEY=sk-xxxxx（あなたのAPIキーを入力）
 ```
