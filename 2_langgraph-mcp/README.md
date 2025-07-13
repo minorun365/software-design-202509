@@ -4,8 +4,6 @@ LangGraphで開発したMCPホストのサンプルコードです。
 
 ## 起動手順
 
-### 事前準備
-
 `2_langgraph-mcp/langgraph-mcp.py` 内の以下部分に、PythonとMCPサーバーのフルパスを記載する
 
 ```py
@@ -17,8 +15,6 @@ server_params = StdioServerParameters(
 ```
 
 https://console.anthropic.com/ でAnthropicのAPIキーを取得する（最低5ドルのクレジットをチャージする必要あり）
-
-### MCPホストの起動
 
 MCPサーバーと別のターミナルを起動し、環境変数にAPIキーをセットする
 
