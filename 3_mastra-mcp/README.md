@@ -30,6 +30,7 @@ MCPホストアプリを起動する
 
 ```sh
 cd 3_mastra-mcp
+npm install
 npm run dev
 ```
 
