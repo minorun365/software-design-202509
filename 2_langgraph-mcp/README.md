@@ -4,7 +4,7 @@ LangGraphで開発したMCPホストのサンプルコードです。
 
 ## 起動手順
 
-`2_langgraph-mcp/langgraph-mcp.py` 内の以下部分に、PythonとMCPサーバーのフルパスを記載する
+`2_langgraph-mcp/langgraph_mcp.py` 内の以下部分に、PythonとMCPサーバーのフルパスを記載する
 
 ```py
 # MCPサーバーを設定
@@ -25,5 +25,5 @@ MCPホストアプリを起動する
 ```sh
 cd 2_langgraph-mcp
 pip install -r requirements.txt
-python langgraph-mcp.py
+python langgraph_mcp.py
 ```

@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^1.2.12",
+    "@mastra/mcp": "^0.10.6",
     "@mastra/core": "^0.10.12",
     "@mastra/libsql": "^0.11.0",
     "@mastra/loggers": "^0.10.3",

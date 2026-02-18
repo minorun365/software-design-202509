@@ -1,3 +1,6 @@
 .DS_Store
 .mastra
 node_modules
+workspace
+CLAUDE.md
+.claude
